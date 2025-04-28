@@ -15,4 +15,12 @@ class persegipanjang
             cin >> lebar;
              
         }
-       
+        void menghitungLuas()
+        {
+        luas = panjang*lebar;
+        }
+        void outputData(){
+        cout << "luas persegi pannjang = "<< luas << endl;
+        }
+};
+        
