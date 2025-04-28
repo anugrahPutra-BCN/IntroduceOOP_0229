@@ -24,3 +24,11 @@ class persegipanjang
         }
 };
         
+int main()
+{
+    persegipanjang per;
+    per.inputData();
+    per.menghitungLuas();
+    per.outputData();
+    return 0; 
+}
